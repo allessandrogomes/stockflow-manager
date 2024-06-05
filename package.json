@@ -1,6 +1,6 @@
 {
   "name": "stockflow-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "O StockFlow Manager é um software robusto para gerenciar baterias em garantia no estoque. Automatiza o controle de tempo dos produtos, oferecendo uma solução prática e eficiente para organização e gestão de garantias. Ideal para otimizar operações e melhorar a satisfação do cliente.",
   "main": "./out/main/index.js",
   "author": "Alessandro da Silva Gomes",
