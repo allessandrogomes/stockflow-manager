@@ -13,7 +13,7 @@ export default function Form({ initialValues, schema, formTitle, formFields, for
                     formData(values)
                     resetForm()
                     setSubmitting(false)
-                }, 100)
+                }, 500)
             }}
         >
 
@@ -35,7 +35,7 @@ export default function Form({ initialValues, schema, formTitle, formFields, for
                                 onChange={handleChange}
                                 title={item.title}
                                 type={item.type}
-                                values={values.name}
+                                value={values[item.name] || ''}
                                 inputProps={item.inputProps}
                             />
                         ))}
